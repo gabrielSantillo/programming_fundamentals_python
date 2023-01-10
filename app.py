@@ -24,5 +24,11 @@
 
 # print(3 * 4.5 )
 
-name = input("Enter your name: ")
-print("Hello " + name + "!")
+# name = input("Enter your name: ")
+# print("Hello " + name + "!")
+
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+
+result = float(num1) + float(num2)
+print(result)
