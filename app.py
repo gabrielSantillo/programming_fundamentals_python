@@ -41,6 +41,21 @@
 # print(plural_noun + " are blue")
 # print("I love " + celebrity)
 
-friends = ["Kevin," "Karen", "Jim", "Oscar", "Toby"]
+# friends = ["Kevin," "Karen", "Jim", "Oscar", "Toby"]
 
-print(friends[1:])
+# print(friends[1:])
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
+# friends.extend(lucky_numbers)
+friends.insert(0, "Gabriel")
+name = "Jim"
+# friends.remove(name)
+# friends.clear()
+friends.sort()
+lucky_numbers.reverse()
+friends_ = friends.copy()
+
+print(friends)
+print(friends_)
+
