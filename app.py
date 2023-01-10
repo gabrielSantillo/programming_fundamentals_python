@@ -33,10 +33,14 @@
 # result = float(num1) + float(num2)
 # print(result)
 
-color = input("Enter a color: ")
-plural_noun = input("Enter a plural noun: ")
-celebrity = input("Enter a celebrity: ")
+# color = input("Enter a color: ")
+# plural_noun = input("Enter a plural noun: ")
+# celebrity = input("Enter a celebrity: ")
 
-print("Roses are red " + color)
-print(plural_noun + " are blue")
-print("I love " + celebrity)
+# print("Roses are red " + color)
+# print(plural_noun + " are blue")
+# print("I love " + celebrity)
+
+friends = ["Kevin," "Karen", "Jim", "Oscar", "Toby"]
+
+print(friends[1:])
