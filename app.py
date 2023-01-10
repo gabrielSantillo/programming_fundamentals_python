@@ -17,5 +17,9 @@
 # print("He really liked the name " + character_name + ", ")
 # print("but didn't like being " + character_age + ".")
 
-phrase = "Coding in Python"
-print(phrase.index("o"))
+# phrase = "Coding in Python"
+# print(phrase.index("o"))
+
+from math import *
+
+print(3 * 4.5 )
