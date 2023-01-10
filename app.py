@@ -45,17 +45,20 @@
 
 # print(friends[1:])
 
-lucky_numbers = [4, 8, 15, 16, 23, 42]
-friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
-# friends.extend(lucky_numbers)
-friends.insert(0, "Gabriel")
-name = "Jim"
-# friends.remove(name)
-# friends.clear()
-friends.sort()
-lucky_numbers.reverse()
-friends_ = friends.copy()
+# lucky_numbers = [4, 8, 15, 16, 23, 42]
+# friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
+# # friends.extend(lucky_numbers)
+# friends.insert(0, "Gabriel")
+# name = "Jim"
+# # friends.remove(name)
+# # friends.clear()
+# friends.sort()
+# lucky_numbers.reverse()
+# friends_ = friends.copy()
 
-print(friends)
-print(friends_)
+# print(friends)
+# print(friends_)
 
+coordinates = (4, 5)
+coordinates[0] = 8
+print(coordinates)
