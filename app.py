@@ -59,6 +59,11 @@
 # print(friends)
 # print(friends_)
 
-coordinates = (4, 5)
-coordinates[0] = 8
-print(coordinates)
+# coordinates = (4, 5)
+# coordinates[0] = 8
+# print(coordinates)
+
+def say_hi(name):
+    print("Hello " + name)
+
+say_hi("Gabriel")
