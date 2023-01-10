@@ -20,6 +20,9 @@
 # phrase = "Coding in Python"
 # print(phrase.index("o"))
 
-from math import *
+# from math import *
 
-print(3 * 4.5 )
+# print(3 * 4.5 )
+
+name = input("Enter your name: ")
+print("Hello " + name + "!")
