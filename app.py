@@ -191,9 +191,11 @@
 #     print("Invalid input")
 
 
-employee_file = open("employees.txt", "a")
+# employee_file = open("employees.txt", "a")
 
-employee_file.write("\nToby - Human Resources")
+# employee_file.write("\nToby - Human Resources")
 
-employee_file.close()
+# employee_file.close()
 
+
+https://docs.python.org/3/py-modindex.html
