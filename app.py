@@ -102,17 +102,24 @@
 # else:
 #     print("Invalid operator")
 
-month_conversations = {
-    "Jan": "Janury",
-    "Feb": "February",
-    "Mar": "March",
-    "Apr": "April",
-    "May": "May",
-    "Jun": "June",
-    "Jul": "July",
-    "Aug": "August",
-    "Sep": "September",
-    "Oct": "October",
-    "Nov": "November",
-    "Dec": "December"
-}
+# month_conversations = {
+#     "Jan": "Janury",
+#     "Feb": "February",
+#     "Mar": "March",
+#     "Apr": "April",
+#     "May": "May",
+#     "Jun": "June",
+#     "Jul": "July",
+#     "Aug": "August",
+#     "Sep": "September",
+#     "Oct": "October",
+#     "Nov": "November",
+#     "Dec": "December"
+# }
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+print("Done with loop")
