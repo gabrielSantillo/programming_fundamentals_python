@@ -234,10 +234,19 @@
 
 # run_test(questions)
 
-from student import Student
+# from student import Student
 
-student1 = Student("Oscar", "Accouting", 3.8, False, 80)
-student2 = Student("Jim", "Business", 3.4, False, 60)
+# student1 = Student("Oscar", "Accouting", 3.8, False, 80)
+# student2 = Student("Jim", "Business", 3.4, False, 60)
 
-print(student1.on_honor_roll())
-print(student2.on_honor_roll())
+# print(student1.on_honor_roll())
+# print(student2.on_honor_roll())
+
+from chef import Chef
+from chinese_chef import chinese_chef
+
+my_chef = Chef()
+chinese = chinese_chef()
+
+my_chef.make_chicken()
+chinese_chef.make_chicken()
