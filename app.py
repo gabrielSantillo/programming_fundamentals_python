@@ -63,7 +63,13 @@
 # coordinates[0] = 8
 # print(coordinates)
 
-def say_hi(name):
-    print("Hello " + name)
+# def say_hi(name):
+#     print("Hello " + name)
 
-say_hi("Gabriel")
+# say_hi("Gabriel")
+
+def cube(num):
+    result = num * num * num
+    return result
+
+print(cube(3))
