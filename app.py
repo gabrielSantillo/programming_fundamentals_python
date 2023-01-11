@@ -74,14 +74,30 @@
 
 # print(cube(3))
 
-is_male = False
-is_tall = False
+# is_male = False
+# is_tall = False
 
-if is_male and is_tall:
-    print("You are a tall male")
-elif is_male and not(is_tall):
-    print("You are a short male")
-elif not(is_male) and is_tall:
-    print("You are not a male but are tall")
+# if is_male and is_tall:
+#     print("You are a tall male")
+# elif is_male and not(is_tall):
+#     print("You are a short male")
+# elif not(is_male) and is_tall:
+#     print("You are not a male but are tall")
+# else:
+#     print("You are not a male nor tall")
+
+
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter first number: "))
+
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "/":
+    print(num1 / num2)
+elif op == "*":
+    print(num1 * num2)
 else:
-    print("You are not a male nor tall")
+    print("Invalid operator")
