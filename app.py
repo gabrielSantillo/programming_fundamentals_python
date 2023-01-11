@@ -242,11 +242,11 @@
 # print(student1.on_honor_roll())
 # print(student2.on_honor_roll())
 
-from chef import Chef
-from chinese_chef import chinese_chef
+# from chef import Chef
+# from chinese_chef import chinese_chef
 
-my_chef = Chef()
-chinese = chinese_chef()
+# my_chef = Chef()
+# chinese = chinese_chef()
 
-my_chef.make_chicken()
-chinese_chef.make_chicken()
+# my_chef.make_chicken()
+# chinese_chef.make_chicken()
