@@ -156,12 +156,24 @@
 # print(raise_to_power(2, 3))
 
 
-number_grid = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+# number_grid = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
 
-for row in number_grid:
-    for col in row:
-        print(col)
+# for row in number_grid:
+#     for col in row:
+#         print(col)
+
+
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter in "AEIOUaeiou":
+            translation += "g"
+        else:
+            translation += letter
+    return translation
+
+print(translate(input("Enter a phrase: \n")))
