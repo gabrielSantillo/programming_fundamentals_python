@@ -198,4 +198,14 @@
 # employee_file.close()
 
 
-https://docs.python.org/3/py-modindex.html
+# https://docs.python.org/3/py-modindex.html
+
+from student import Student
+
+student_one = Student("Gabriel", "Computer Science", "4.8", False, [10, 7, 6])
+
+student = {
+    "name": "GABRIEL"
+}
+
+print(student_one.scores[0])
