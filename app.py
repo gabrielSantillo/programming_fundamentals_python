@@ -143,7 +143,14 @@
 #     print("You win!!!")
 
 
-friends = ["Jim", "Karen", "Kevin"]
+# friends = ["Jim", "Karen", "Kevin"]
 
-for index in range(len(friends)):
-    print(friends[index])
+# for index in range(len(friends)):
+#     print(friends[index])
+
+
+def raise_to_power(base_num, pow_num):
+    result = pow(base_num, pow_num)
+    return result
+
+print(raise_to_power(2, 3))
