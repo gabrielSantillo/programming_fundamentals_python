@@ -1,0 +1,5 @@
+Jim - Salesman
+Dwigth - Salesman
+Pam - Receptionist
+Michael - Manager
+Oscar -  Accountant

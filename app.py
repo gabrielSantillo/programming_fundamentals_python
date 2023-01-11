@@ -192,5 +192,6 @@
 
 
 employee_file = open("employees.txt", "r")
-print(employee_file.read())
+for employee in employee_file.readlines():
+    print(employee)
 employee_file.close()
